@@ -1,0 +1,158 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin-right: 15px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+h2 {
+  color: #333;
+}
+
+/* Product Grid */
+.product-section {
+  padding: 20px;
+  text-align: center;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.product-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.product-card button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.product-card button:hover {
+  background-color: #555;
+}
+
+/* Cart Section */
+.cart-section {
+  padding: 20px;
+  background-color: #fff;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#cart-items {
+  list-style-type: none;
+  padding: 0;
+}
+
+#cart-items li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+#cart-items li:last-child {
+  border-bottom: none;
+}
+
+/* Checkout Section */
+/* Contact Section */
+#contact {
+  padding: 50px 20px;
+  background-color: gray;
+  text-align: center;
+}
+
+#contact h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form label {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+form input, form textarea {
+  width: 30%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+form button {
+  padding: 15px 20px;
+  font-size: 18px;
+  background-color: #ff6f00;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #3e2723;
+  color: white;
+  text-align: center;
+  padding: 15 px;
+}
+
+
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+}

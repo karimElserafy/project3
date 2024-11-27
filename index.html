@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoes Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Shoes Shop</h1>
+        <nav>
+            <ul>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#cart">Cart</a></li>
+                <li><a href="#checkout">Checkout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="shop" class="product-section">
+        <h2>Our Latest Shoes</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="1.jpeg" alt="Shoe 1">
+                <h3>Running Shoes</h3>
+                <p>$50.00</p>
+                <button onclick="addToCart('Running Shoes', 50)">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="81D8c1lJHsL.jpg" alt="Shoe 2">
+                <h3>Boots</h3>
+                <p>$120.00</p>
+                <button onclick="addToCart('Boots', 120)">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="RSL0075_1.webp" alt="Shoe 3">
+                <h3>Casual Sneakers</h3>
+                <p>$60.00</p>
+                <button onclick="addToCart('Casual Sneakers', 60)">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="Casual-Sandals.jpg" alt="Shoe 4">
+                <h3>Sports Sandals</h3>
+                <p>$30.00</p>
+                <button onclick="addToCart('Sports Sandals', 30)">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+    
+        <section id="contact">
+            <h2>Billing details</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Place order    </button>
+            </form>
+    </section>
+
+   
+</body>
